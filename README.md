@@ -24,6 +24,14 @@ You can download a ZIP of this repository by clicking the green _Code_ button ab
 	Inherits=miku-cursor-linux
 	```
 
+### Hyprland
+1. Copy the `miku-cursor-hyprland/` to `~/.local/share/icons/` (per-user).`/usr/share/icons/` is not recommended by [hyprcursor](https://wiki.hypr.land/hypr-ecosystem/user/hyprcursor/)
+2. On hyprland.lua, add:
+  ```
+  hl.env("HYPRCURSOR_SIZE", "24")
+  hl.env("HYPRCURSOR_THEME", "Miku")
+  ```
+
 ### Windows
 1. Open the `miku-cursor-windows\` folder in the ZIP.
 2. Right-click on `Install.inf` and select _Install_.

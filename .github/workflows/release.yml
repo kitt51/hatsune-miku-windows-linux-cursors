@@ -17,6 +17,7 @@ jobs:
       - name: Generate release
         run: |
           git archive --format=tar.xz --prefix=miku-cursor-linux/ HEAD:miku-cursor-linux/ -o miku-cursor-linux.tar.xz
+          git archive --format=tar.xz --prefix=miku-cursor-hyprland/ HEAD:miku-cursor-hyprland/ -o miku-cursor-hyprland.tar.xz
           git archive --format=zip --prefix=miku-cursor-windows/ HEAD:miku-cursor-windows/ -o miku-cursor-windows.zip
       - name: Release
         uses: softprops/action-gh-release@v2
