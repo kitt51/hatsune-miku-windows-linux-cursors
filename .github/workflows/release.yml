@@ -24,4 +24,5 @@ jobs:
         with:
           files: |
             miku-cursor-linux.tar.xz
+            miku-cursor-hyprland.tar.xz
             miku-cursor-windows.zip
